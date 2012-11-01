@@ -10,6 +10,6 @@ $ip_serveur = '188.165.204.140:7777'; // IP DU SERVEUR
  SI ÇA ÉCHOUE, REDIRECTION VERS LE MAINTENANCE.PHP
  
  */
-$connnexion = mysql_connect('127.0.0.1', 'root', 'caca') or die(header('Location: maintenance.php')); // LOGS SQL DE LA BDD
+$connnexion = mysql_connect('127.0.0.1', 'root', '') or die(mysql_error()); // LOGS SQL DE LA BDD
 mysql_select_db('cjeje') or die(header('Location: maintenance.php')); // NOM DE LA BASE DE DONNEE
 ?>
