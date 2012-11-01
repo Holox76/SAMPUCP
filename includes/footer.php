@@ -1,0 +1,1 @@
+<div id='pied'><a href='samp:<?php echo $ip_serveur; ?>' title='Raccourci pour aller sur le serveur avec SA:MP !'><img src='images/sampicon.png' id='sampicon'></a></div></div><div class='copyright'><b><?php echo $nom_serveur; ?> UCP &copy; 2010-2012. Fondé par <?php echo $fondateur; ?>. UCP créé par <a href="http://holox.fr">Holox</a>.</b></div>
