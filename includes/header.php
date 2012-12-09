@@ -7,21 +7,21 @@ session_start();
 	<div id='left'>
 	<div class='menu_fond'>
 	<ul><li class='categmenu'><?php echo $nom_serveur; ?> UCP</li>
-	<li><a href='index'>Accueil</a></li>
+	<li><a href='index.php'>Accueil</a></li>
 	<?php
 	if(!isset($_SESSION['login']))
 	{
 		?>
-	<li><a href='inscription'>Créer un compte</a></li>
-	<li><a href='login'>Se connecter à l'UCP</a></li>
+	<li><a href='inscription.php'>Créer un compte</a></li>
+	<li><a href='login.php'>Se connecter à l'UCP</a></li>
 	<?php
 	}
 	else
 	{
 	?>
-		<li><a href="membre">Espace Membre</a></li>
-		<li><a href="changer">Modification</a></li>
-		<li><a href="deconnexion">Déconnexion</a></li>
+		<li><a href="membre.php">Espace Membre</a></li>
+		<li><a href="changer.php">Modification</a></li>
+		<li><a href="deconnexion.php">Déconnexion</a></li>
 	<?php
 	}
 	?>
